@@ -1,15 +1,10 @@
 from fastapi import FastAPI
 from fastapi.params import Body
-from pydantic import BaseModel
-from typing import Optional
+from models import Post
 
 app = FastAPI()
 
-class Post(BaseModel):
-    title: str
-    content: str
-    published: bool = True
-    rating: Optional[int] = None
+
 
 
 #Refers to route/path operations.
@@ -26,6 +21,6 @@ def get_posts():
 def create_posts(new_post: Post):
     print(new_post)
     print(new_post.dict())
-    return {"data": "new post"}
+    return {"data": new_post}
 
 ## we want the user to send title str, content str.
