@@ -1,13 +1,117 @@
-###Tech stack 
+Python API Development Course
 
-python
+Welcome to the Python API Development Course repository! This course is designed to provide you with comprehensive knowledge and practical skills in building APIs using Python with FastAPI. Throughout this course, you'll learn fundamental concepts of API design, database integration, testing, and deployment.
+
+Course Overview
+
+In this course, you'll cover the following topics:
+
+Setting up development environment on both Mac and Windows
+Python virtual environment basics
+Starting with FastAPI and understanding path operations
+HTTP requests and schema validation with Pydantic
+CRUD operations and storing data
+Introduction to databases and SQL
+Database CRUD operations using SQLAlchemy
+Implementing authentication and authorization with JWT tokens
+Advanced topics such as SQL relationships, joins, and migrations
+Deploying the API to Heroku and Ubuntu server
+Dockerizing the application for containerized deployment
+Writing tests using pytest and setting up CI/CD pipeline with GitHub Actions
+Course Content
+
+The course is structured into the following sections:
+
+Introduction and project overview
+Setting up development environment
+Building APIs with FastAPI
+Database integration and SQL fundamentals
+Authentication and authorization
+Advanced topics including SQL relationships and joins
+Deployment on Heroku and Ubuntu server
+Dockerizing the application
+Writing tests and setting up CI/CD pipeline
+Prerequisites
+
+Before starting the course, ensure you have the following prerequisites:
+
+Basic knowledge of Python programming language
+Familiarity with command line interface
+Access to a text editor such as Visual Studio Code
+Git and GitHub account for version control
+Course Instructor
+
+This course is instructed by Sanjeev Thiyagarajan. Check out his channel: @sanjeevthiyagarajan
+
+Technology Stack
+
+Programming Languages
+Python
+Web Framework
 FastAPI
-SQL - postgres
+Database
+PostgreSQL
+ORM (Object-Relational Mapping)
 SQLAlchemy
+Testing Framework
+Pytest
+Continuous Integration/Continuous Deployment (CI/CD)
+GitHub Actions
+Development Environment
+Visual Studio Code (VS Code)
+Containerization
 Docker
-Github Actions
-Postman
-Github
+Deployment Platforms
 Heroku
-Deploy in ubuntu
-github actions
+Ubuntu Server
+Version Control
+Git
+GitHub
+Web Server
+NGINX (covered for deployment)
+Others
+Postman (for API testing)
+Alembic (for database migrations)
+Gunicorn (for serving FastAPI in production)
+Course Tools
+
+Python Virtual Environment Management
+Creation and management of Python virtual environments for project isolation.
+PostgreSQL GUI Management
+PgAdmin (for managing PostgreSQL databases through a graphical user interface).
+API Testing
+Postman collections for testing API endpoints and saving requests.
+Database Migrations
+Alembic for managing database schema changes and migrations.
+Text Editor
+Visual Studio Code (VS Code) for writing and editing code.
+Course Workflow
+
+The course covers setting up a development environment, creating APIs with FastAPI, integrating with databases using SQLAlchemy, writing tests with Pytest, deploying applications to Heroku and Ubuntu Server, containerizing applications with Docker, and setting up CI/CD pipelines with GitHub Actions.
+
+This technology stack and workflow provide a comprehensive foundation for learning Python API development and related technologies.
+
+Getting Started
+
+To get started with the course, follow these steps:
+
+Clone the repository to your local machine:
+bash
+Copy code
+git clone https://github.com/Sanjeev-Thiyagaraj...
+Navigate to the repository directory:
+bash
+Copy code
+cd Python-API-Development-Course
+Follow the course videos sequentially and complete the exercises provided.
+If you encounter any issues or have questions, feel free to reach out to the course instructor or community for assistance.
+Additional Resources
+
+Course Repository
+Course Instructor's Channel
+FastAPI Documentation
+Pydantic Documentation
+SQLAlchemy Documentation
+Acknowledgments
+
+Special thanks to Sanjeev Thiyagarajan for providing this comprehensive course on Python API development.
