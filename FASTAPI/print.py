@@ -7,14 +7,6 @@ def count_down(name, n):
         print(f'{name}: {i}')
         time.sleep(1)
 
-def square_numbers(numbers):
-    for num in numbers:
-        print('Square:', num * num)
-
-def cube_numbers(numbers):
-    for num in numbers:
-        print('Cube:', num * num * num)
-
 if __name__ == "__main__":
     # Example using threading
     print("Threading Example:")
