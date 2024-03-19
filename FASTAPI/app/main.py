@@ -67,3 +67,5 @@ def update_post(id: int, post: Post):
     my_posts[index] = post.dict()
     my_posts[index]['id'] = id
     return {"message": f"Post with id {id} updated successfully"}
+
+#testcomment
